@@ -35,11 +35,10 @@ const Service = ({ dark }) => {
       <div className="dizme_tm_services">
         <div className="container">
           <div className="dizme_tm_main_title" data-align="center">
-            <span>Services</span>
-            <h3>What I Do for Clients</h3>
+            <span>Teaching</span>
+            <h3>Recent Courses Taught</h3>
             <p>
-              Most common methods for designing websites that work well on
-              desktop is responsive and adaptive design
+            In the ever-changing education environment, effective teaching practices are helping educators enhance their instructional style
             </p>
           </div>
           <div className="service_list">
@@ -76,7 +75,7 @@ const Service = ({ dark }) => {
                           <div className="title">
                             <h3>{data.title}</h3>
                             <span className="price">
-                              Starts from <span>${data.price}</span>
+                              Starts from <span>{data.price}</span>
                             </span>
                           </div>
                           <div className="text">
