@@ -27,11 +27,10 @@ const Testimonial = () => {
     <div className="dizme_tm_section">
       <div className="dizme_tm_testimonials">
         <div className="dizme_tm_main_title" data-align="center">
-          <span>Testimonials</span>
-          <h3>What My Clients Say</h3>
+          <span>STUDENTS</span>
+          <h3>More About My Students</h3>
           <p>
-            Most common methods for designing websites that work well on desktop
-            is responsive and adaptive design
+          If you are interested in working with me, please apply to ECE or CS departments at UIUC, and mention my name. If you are already an admitted PhD/MS student at UIUC, please email me to schedule a meeting.
           </p>
         </div>
         <div className="list_wrapper">
@@ -57,8 +56,8 @@ const Testimonial = () => {
                           className="svg replaced-svg"
                         >
                           <g>
-                            <path d="M885.208,749.739v-40.948C836.019,708.791,796,748.81,796,798v89.209h89.208V798h-48.26   C836.948,771.39,858.598,749.739,885.208,749.739z" />
-                            <path d="M996,749.739v-40.948c-49.19,0-89.209,40.019-89.209,89.209v89.209H996V798h-48.26   C947.74,771.39,969.39,749.739,996,749.739z" />
+                            <path d="M885.208,749.739v-40.948C836.019,708.791,796,748.81,796,798v89.209h89.208V798h-48.26   C836.948,771.39,858.598,749.739,885.208,749.739z"/>
+                            <path d="M996,749.739v-40.948c-49.19,0-89.209,40.019-89.209,89.209v89.209H996V798h-48.26   C947.74,771.39,969.39,749.739,996,749.739z"/>
                           </g>
                         </svg>
                       </div>
@@ -67,7 +66,7 @@ const Testimonial = () => {
                       </div>
                       <div className="short">
                         <div className="image">
-                          <div className="main" data-img-url={data.img} />
+                          <div className="main" data-img-url={data.img}/>
                         </div>
                         <div className="detail">
                           <h3>{data.name}</h3>
@@ -103,9 +102,9 @@ const Testimonial = () => {
                 data-wow-delay="0.6s"
                 data-img-url="img/testimonials/4.jpg"
               />
-              <span className="circle green animPulse" />
-              <span className="circle yellow animPulse" />
-              <span className="circle border animPulse" />
+              <span className="circle green animPulse"/>
+              <span className="circle yellow animPulse"/>
+              <span className="circle border animPulse"/>
             </div>
             <div className="right_details">
               <div
@@ -125,14 +124,14 @@ const Testimonial = () => {
                 data-wow-delay="0.4s"
                 data-img-url="img/testimonials/7.jpg"
               />
-              <span className="circle yellow animPulse" />
-              <span className="circle purple animPulse" />
-              <span className="circle border animPulse" />
+              <span className="circle yellow animPulse"/>
+              <span className="circle purple animPulse"/>
+              <span className="circle border animPulse"/>
             </div>
           </div>
         </div>
         <div className="brush_1 wow fadeInRight" data-wow-duration="1s">
-          <img src="img/brushes/testimonials/1.png" alt="image" />
+          <img src="img/brushes/testimonials/1.png" alt="image"/>
         </div>
       </div>
     </div>
