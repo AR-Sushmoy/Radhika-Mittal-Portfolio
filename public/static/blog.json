@@ -1,35 +1,35 @@
 [
   {
-    "title": "Jim Morisson Says when the musics over turn off the light",
+    "title": "A communication network refers to the method that employees pass on informations",
     "img": "img/news/1.jpg",
-    "category": "Web Development",
-    "date": { "date": "23", "month": "Dec" },
+    "category": "Communication Networks",
+    "date": { "date": "01", "month": "Dec" },
     "details": [
-      "Dizme is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+      "A communication network refers to how information flows within the organization. Information within an organization generally flows through a system, rather than being a free flow.",
+      "Communication networks are regular patterns of person-to-person relationships through which information flows in an organization. This means that the flow of information is managed, regulated. and structured. Communication networks may be formal or informal.",
+      "This type of communication has both benefits and disadvantages. One of the biggest benefits is problem-solving. Once a subordinate has brought a problem to his superior’s notice, chances are that the problem will not recur, since the subordinate learns from his superior how to tackle it the next time."
     ]
   },
   {
-    "title": "How to be appreciated for your hard work as a developer",
+    "title": "Distributed computing is a field of computer science that studies distributed systems",
     "img": "img/news/2.jpg",
-    "category": "Branding",
-    "date": { "date": "23", "month": "Dec" },
+    "category": "Networking and distributed computing",
+    "date": { "date": "01", "month": "Dec" },
     "details": [
-      "Dizme is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+      "A distributed computer system consists of multiple software components that are on multiple computers, but run as a single system. The computers that are in a distributed system can be physically close together and connected by a local network, or they can be geographically distant and connected by a wide area network.",
+      "Distributed computing systems can run on hardware that is provided by many vendors, and can use a variety of standards-based software components. Such systems are independent of the underlying software. They can run on various operating systems, and can use various communications protocols.",
+      "A distributed system can consist of any number of possible configurations, such as mainframes, personal computers, workstations, minicomputers, and so on. The goal of distributed computing is to make such a network work as a single computer. Several machines can provide the same services, so if one is unavailable, work does not stop. Additionally, because many smaller machines can be used, this redundancy does not need to be prohibitively expensive."
     ]
   },
   {
-    "title": "How designers and developers can collaborate better",
+    "title": " System software that manages computer hardware, software resources, and provides common services for computer programs",
     "img": "img/news/3.jpg",
-    "category": "Social Media",
-    "date": { "date": "23", "month": "Dec" },
+    "category": "Operating Systems",
+    "date": { "date": "01", "month": "Dec" },
     "details": [
-      "Dizme is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+      "An operating system is the program that, after being initially loaded into the computer by a boot program, manages all of the other application programs in a computer. The application programs make use of the operating system by making requests for services through a defined application program interface .",
+      "In addition, users can interact directly with the operating system through a user interface, such as a command-line interface  or a graphical UI .",
+      "An operating system brings powerful benefits to computer software and software development. Without an operating system, every application would need to include its own UI, as well as the comprehensive code needed to handle all low-level functionality of the underlying computer, such as disk storage, network interfaces and so on. Considering the vast array of underlying hardware available, this would vastly bloat the size of every application and make software development impractical."
     ]
   }
 ]
