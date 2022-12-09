@@ -1,8 +1,8 @@
 {
   "name": "Radhika Mittal",
-  "address": "New York",
-  "bio": "I'm creative designer based in New York, and I'm very passionate and dedicated to my work.",
-  "mainSkill": "Creative Designer",
+  "address": "University of Illinois Urbana-Champaign ",
+  "bio": "I'm an assistant professor in the ECE department with an affiliate appointment in the CS department at UIUC,USA. I'm very passionate about my research works and broadly interested in computer systems and networking.",
+  "mainSkill": "Assistant Professor",
   "img": "/img/slider/avatar.png",
   "skills": [
     {
@@ -31,8 +31,8 @@
     { "name": "behance", "icon": "icon-behance", "url": "#" }
   ],
   "contact": {
-    "address": "20, Somewhere in world",
-    "email": "hello@dizme.com",
+    "address": "1308 W Main Street, Urbana, IL 61801,USA",
+    "email": "radhikam @ illinois.edu",
     "phn": "+123 456 7890"
   }
 }
