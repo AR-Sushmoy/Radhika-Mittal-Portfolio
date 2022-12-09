@@ -3,7 +3,12 @@
 @import "../public/css/plugins.css";
 @import "../public/css/dark.css";
 @import "../public/css/style.css";
-
+.gp{
+  margin:0px 20px;
+}
+.aboutimage{
+  height:500px;width:500px;
+}
 .c-pointer {
   cursor: pointer;
 }
