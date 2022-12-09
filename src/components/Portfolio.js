@@ -51,11 +51,10 @@ const Portfolio = () => {
       <div className="dizme_tm_portfolio">
         <div className="container">
           <div className="dizme_tm_main_title" data-align="center">
-            <span>Portfolio</span>
+            <span>Publications</span>
             <h3>My Amazing Works</h3>
-            <p>
-              Most common methods for designing websites that work well on
-              desktop is responsive and adaptive design
+            <p>Most common methods used in research:
+              Quantitative Research Methodology, Qualitative Research Methodology, Mixed Methods Approach.
             </p>
           </div>
           <div className="portfolio_filter">
@@ -73,7 +72,7 @@ const Portfolio = () => {
                   className={`c-pointer ${activeBtn("youtube")}`}
                   onClick={handleFilterKeyChange("youtube")}
                 >
-                  Youtube
+                  5G RAN
                 </a>
               </li>
               <li>
@@ -81,7 +80,7 @@ const Portfolio = () => {
                   className={`c-pointer ${activeBtn("vimeo")}`}
                   onClick={handleFilterKeyChange("vimeo")}
                 >
-                  Vimeo
+                  ITC
                 </a>
               </li>
               <li>
@@ -89,7 +88,7 @@ const Portfolio = () => {
                   className={`c-pointer ${activeBtn("soundcloud")}`}
                   onClick={handleFilterKeyChange("soundcloud")}
                 >
-                  Soundcloud
+                  Internet Control
                 </a>
               </li>
               <li>
@@ -97,7 +96,7 @@ const Portfolio = () => {
                   className={`c-pointer ${activeBtn("popup")}`}
                   onClick={handleFilterKeyChange("popup")}
                 >
-                  Popup
+                  USENIX
                 </a>
               </li>
               <li>
@@ -105,7 +104,7 @@ const Portfolio = () => {
                   className={`c-pointer  ${activeBtn("detail")}`}
                   onClick={handleFilterKeyChange("detail")}
                 >
-                  Detail
+                  Aerial Computing
                 </a>
               </li>
             </ul>
@@ -117,12 +116,14 @@ const Portfolio = () => {
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Mockup Shape"
-                    data-category="Youtube"
+                    data-title="Channel-Aware"
+                    data-category="5G RAN"
                   >
+
                     <a
                       className="popup-youtube"
-                      href="https://www.youtube.com/embed/7e90gBu4pas?autoplay=1"
+                      href="http://radhikam.web.illinois.edu/radiosaber.pdf"
+                      target="_blank"
                     >
                       <img src="img/thumbs/42-56.jpg" alt="image" />
                       <div
@@ -141,12 +142,13 @@ const Portfolio = () => {
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Ave Bottle"
-                    data-category="Vimeo"
+                    data-title="Internet Traffic Control"
+                    data-category="ITC"
                   >
                     <a
                       className="popup-vimeo"
-                      href="https://player.vimeo.com/video/337293658?autoplay=1"
+                      href="https://dl.acm.org/doi/pdf/10.1145/3447786.3456260"
+                      target="_blank"
                     >
                       <img src="img/thumbs/42-34.jpg" alt="image" />
                       <div
@@ -165,12 +167,13 @@ const Portfolio = () => {
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Magic Art"
-                    data-category="Soundcloud"
+                    data-title="Enable User"
+                    data-category="Internet Control"
                   >
                     <a
                       className="soundcloude_link mfp-iframe audio"
-                      href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                      href="http://radhikam.web.illinois.edu/crab.pdf"
+                      target="_blank"
                     >
                       <img src="img/thumbs/42-56.jpg" alt="image" />
                       <div
@@ -189,10 +192,11 @@ const Portfolio = () => {
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Scott Felix"
-                    data-category="Popup"
+                    data-title="Payment Network"
+                    data-category="USENIX"
                   >
-                    <a className="zoom" href="img/portfolio/5.jpg">
+
+                    <a className="zoom" href="https://www.usenix.org/system/files/nsdi20-paper-sivaraman.pdf" target="_blank">
                       <img src="img/thumbs/42-56.jpg" alt="image" />
                       <div
                         className="main"
@@ -210,10 +214,11 @@ const Portfolio = () => {
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Art Stone"
-                    data-category="Popup"
+                    data-title="Congestion Control"
+                    data-category="USENIX"
                   >
-                    <a className="zoom" href="img/portfolio/4.jpg">
+
+                    <a className="zoom" href="https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-mittal.pdf" target="_blank">
                       <img src="img/thumbs/42-34.jpg" alt="image" />
                       <div
                         className="main"
@@ -228,14 +233,15 @@ const Portfolio = () => {
                 </div>
               </li>
 
-              <li className="detail grid-item" onClick={() => setPopup(true)}>
+              <li className="detail grid-item">
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Global Evolution"
-                    data-category="Detail"
+                    data-title="Marketplace"
+                    data-category="Aerial Computing"
                   >
-                    <a className="portfolio_popup" href="#">
+
+                    <a className="portfolio_popup" href="https://dl.acm.org/doi/pdf/10.1145/3469259.3470485" target="_blank">
                       <img src="img/thumbs/42-34.jpg" alt="image" />
                       <div
                         className="main"
@@ -244,8 +250,8 @@ const Portfolio = () => {
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Global Evolution</h3>
-                    <span>Detail</span>
+                    <h3>Marketplace</h3>
+                    <span>Aerial Computing</span>
                   </div>
                 </div>
               </li>
