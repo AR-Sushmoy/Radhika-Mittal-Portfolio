@@ -21,11 +21,10 @@ const Skills = ({ dark }) => {
                 data-wow-duration="1s"
                 data-align="left"
               >
-                <span>Design is Life</span>
-                <h3>I Develop Skills Regularly to Keep Me Update</h3>
+                <span>Research Increase Knowledge</span>
+                <h3>I Doing Research Regularly to Keep Update My Knowledge</h3>
                 <p>
-                  Most common methods for designing websites that work well on
-                  desktop is responsive and adaptive design
+                  Most common methods used in research: Quantitative Research Methodology, Qualitative Research Methodology, Mixed Methods Approach.
                 </p>
               </div>
               <div
@@ -55,7 +54,7 @@ const Skills = ({ dark }) => {
               </div>
             </div>
             <div className="right">
-              <img src={`img/skills/${dark ? 2 : 1}.jpg`} alt="image" />
+              <img src={img/skills/${dark ? 2 : 1}.jpg} alt="image" />
             </div>
           </div>
         </div>
