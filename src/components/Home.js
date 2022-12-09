@@ -1,9 +1,12 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import parse from "html-react-parser";
 import { useEffect, useState } from "react";
 import { fatchData } from "../utilits";
 
 const Home = ({ dark }) => {
   const [data, setData] = useState({});
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(async () => {
     setData(await fatchData("/static/info.json"));
   }, []);
@@ -46,7 +49,7 @@ const Home = ({ dark }) => {
                       data.social &&
                       data.social.map((social, i) => (
                         <li key={i}>
-                          <a href="#">
+                          <a href="https://www.linkedin.com/in/radhika-mittal-bb0bb821/" target="_blank" rel="noreferrer">
                             <i className={social.icon} />
                           </a>
                         </li>
@@ -56,7 +59,9 @@ const Home = ({ dark }) => {
               </div>
             </div>
             <div className="avatar">
+              
               <div className="image">
+                
                 <img
                   src={data && data.img ? data.img : "/img/slider/avatar.png"}
                   alt="image"
