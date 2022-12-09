@@ -38,4 +38,4 @@ const Newsletter = () => {
     </Fragment>
   );
 };
-export default Newsletter;
+export default Newsletter; 
