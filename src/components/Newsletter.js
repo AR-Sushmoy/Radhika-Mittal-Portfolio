@@ -17,10 +17,11 @@ const Newsletter = () => {
               </div>
               <div className="content">
                 <div className="left wow fadeInLeft" data-wow-duration="1s">
-                  <span className="subtitle">Subscribe Now</span>
-                  <h3 className="title">Get My Newsletter</h3>
+                  <span className="subtitle">Get Information</span>
+                  <h3 className="title">Reserving Space</h3>
                   <p className="text">
-                    Get latest news, updates, tips and trics in your inbox
+                  <p>Interested in reserving the ECE Building for an event?</p>
+                  Please send your Email address
                   </p>
                 </div>
                 <div className="right wow fadeInRight" data-wow-duration="1s">

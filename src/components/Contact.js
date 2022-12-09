@@ -121,12 +121,12 @@ const Contact = () => {
           <div className="dizme_tm_map wow fadeInUp" data-wow-duration="1s">
             <div className="mapouter">
               <div className="gmap_canvas">
-                <iframe
-                  height={375}
-                  style={{ width: "100%" }}
-                  id="gmap_canvas"
-                  src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                />
+              <iframe 
+                height={375}
+                style={{ width: "100%" }}
+                id="gmap_canvas"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3051.230187757282!2d-88.22890818430017!3d40.11487338186569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd741df05dcad%3A0x477cd1a59a2e72e1!2s1308%20W%20Main%20St%2C%20Urbana%2C%20IL%2061801%2C%20USA!5e0!3m2!1sen!2sbd!4v1669985218067!5m2!1sen!2sbd"/>
+
                 <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon" />
                 <br />
               </div>
