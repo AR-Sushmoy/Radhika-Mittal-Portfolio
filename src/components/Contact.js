@@ -11,10 +11,10 @@ const Contact = () => {
         <div className="container">
           <div className="dizme_tm_main_title" data-align="center">
             <span>Contact Me</span>
-            <h3>I Want To Hear From You</h3>
+            <h3>Ask Anything You Need</h3>
             <p>
               Please fill out the form on this section to contact with me. Or
-              call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday
+              call between 7:00 p.m. and 9:00 p.m. ET, Monday through Friday
             </p>
           </div>
           <div className="contact_inner">
@@ -78,20 +78,20 @@ const Contact = () => {
                   <div className="input_list">
                     <ul>
                       <li>
-                        <input id="name" type="text" placeholder="Your Name" />
+                        <input id="name" type="text" placeholder="Name" />
                       </li>
                       <li>
                         <input
                           id="email"
                           type="text"
-                          placeholder="Your Email"
+                          placeholder="Email"
                         />
                       </li>
                       <li>
                         <input
                           id="phone"
                           type="number"
-                          placeholder="Your Phone"
+                          placeholder="University"
                         />
                       </li>
                       <li>
@@ -102,7 +102,7 @@ const Contact = () => {
                   <div className="message_area">
                     <textarea
                       id="message"
-                      placeholder="Write your message here"
+                      placeholder="Write your mesage here..."
                       defaultValue={""}
                     />
                   </div>
@@ -141,4 +141,4 @@ const Contact = () => {
     </div>
   );
 };
-export default Contact;
+export default Contact

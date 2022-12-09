@@ -7,11 +7,13 @@ const About = ({ dark }) => {
           <div className="wrapper">
             <div className="left">
               <div className="image">
-                <img src={`img/about/${dark ? 2 : 1}.jpg`} alt="image" />
+                <img className="gp aboutimage" src={`img/about/1.png`} alt="image" /> 
+                {/* gp class for image margin */}
+                {/* aboutimage for controlling image size */}
                 <div className="numbers year">
                   <div className="wrapper">
                     <h3>
-                      <Counter end={18} />
+                      <Counter end={10} />
                     </h3>
                     <span className="name">
                       Years of
@@ -23,12 +25,12 @@ const About = ({ dark }) => {
                 <div className="numbers project">
                   <div className="wrapper">
                     <h3>
-                      <Counter end={9} />K
+                      <Counter end={24} />
                     </h3>
                     <span className="name">
                       Total
                       <br />
-                      Projects
+                      Publications
                     </span>
                   </div>
                 </div>
@@ -36,16 +38,16 @@ const About = ({ dark }) => {
             </div>
             <div className="right">
               <div className="title wow fadeInUp" data-wow-duration="1s">
-                <span>{`I'm a Designer`}</span>
-                <h3>I Can Design Anything You Want</h3>
+                <span>{`I'm a Researcher`}</span>
+                <h3>I Love To Innovate New Things</h3>
               </div>
               <div className="text wow fadeInUp" data-wow-duration="1s">
-                <p>
-                  {`Hello there! I'm a web designer, and I'm very passionate and
-                  dedicated to my work. With 20 years experience as a
-                  professional web developer, I have acquired the skills and
-                  knowledge necessary to make your project a success. I enjoy
-                  every step of the design process, from discussion and
+                <p align="justify">
+                  {`Hello there! I'm a researcher, and I'm very passionate and
+                  dedicated to my work. With 10 years experience as a
+                  professional researcher, I have acquired the skills and
+                  knowledge necessary to make a project a success. I enjoy
+                  every step of the process, from discussion and
                   collaboration.`}
                 </p>
               </div>
@@ -54,7 +56,7 @@ const About = ({ dark }) => {
                 data-wow-duration="1s"
               >
                 <a className="anchor" href="#contact">
-                  <span>Hire Me</span>
+                  <span>Contact Me</span>
                 </a>
               </div>
             </div>
