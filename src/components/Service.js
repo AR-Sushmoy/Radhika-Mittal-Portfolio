@@ -75,7 +75,7 @@ const Service = ({ dark }) => {
                           <div className="title">
                             <h3>{data.title}</h3>
                             <span className="price">
-                              Starts from <span>{data.price}</span>
+                            Spring 2021-2022 <span>{data.price}</span>
                             </span>
                           </div>
                           <div className="text">
